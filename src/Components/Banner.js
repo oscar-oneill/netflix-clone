@@ -22,7 +22,7 @@ const Banner = () => {
 
     const style = {
         backgroundSize: "cover",
-        backgroundImage: `url(${baseURL}${movie?.backdrop_path})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(36, 36, 36, 0.39) 0%, rgb(24, 20, 20) 100%), url(${baseURL}${movie?.backdrop_path})`,
         backgroundPosition: "center center"
     }
 
